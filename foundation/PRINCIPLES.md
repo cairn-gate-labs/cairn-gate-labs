@@ -24,10 +24,10 @@ All public output goes under the Cairn Gate name. The founder's identity is not 
 Any technical architecture, method, or framework we develop: decide on IP posture before making it public. There is no un-publishing.
 
 **5. Approval gates are not optional.**
-No paid work, advisory role, or outside engagement begins without the required Meta conflicts-tool approval. This is not bureaucracy — it is the legal and professional foundation everything else rests on.
+No paid work, advisory role, or outside engagement begins without the required employer conflict clearance. This is not bureaucracy — it is the legal and professional foundation everything else rests on.
 
 **6. One clean-room policy, always.**
-Personal devices, personal accounts, personal time. No Meta code, data, tooling, or infrastructure ever touches Cairn Gate work. Document this consistently, not selectively.
+Personal devices, personal accounts, personal time. No employer code, data, tooling, or infrastructure ever touches Cairn Gate work. Document this consistently, not selectively.
 
 **7. Revenue proves the thesis.**
 Consulting and advisory work is not just income — it is research. Real clients with real problems tell us whether the thesis is correct. We treat engagements as feedback loops, not just revenue events.

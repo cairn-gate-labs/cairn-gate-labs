@@ -8,27 +8,26 @@ status: decided
 
 ## Context
 
-Owner is a PhD-trained data scientist employed at Meta. Building a public AI lab while employed at a major AI company creates tension around: public authorship, employer conflict, personal brand vs. business brand, and IP attribution.
+Building a public AI lab while the founder maintains other professional obligations creates tension around public authorship, employer conflict, personal brand vs. business brand, and IP attribution.
 
 ## Decision
 
-All public output goes under the Cairn Gate brand. The founder's name does not publicly author content. Personal leverage is activated later, selectively, when appropriate. The brand earns credibility through the work, not through founder association.
+All public output goes under the Cairn Gate brand. The lab earns credibility through the work, not through founder association. Personal leverage is activated selectively, when appropriate.
 
 ## Consequences
 
-- Cairn Gate must earn trust without founder credential as a crutch — higher bar, cleaner result
-- Personal brand stays clean and unexposed during the company-building phase
-- No Meta logo, badge, or "Meta-backed" language anywhere
-- Footer disclaimer on any public content: "Views are Cairn Gate's own. Not affiliated with, sponsored by, or endorsed by Meta."
-- Paid writing, speaking, or advisory that relates to Meta work requires Meta publication review and conflicts approval
+- Cairn Gate must earn trust without a founder credential as a crutch — higher bar, cleaner result
+- No implied endorsement by any employer, past or present
+- Footer disclaimer on all public content: "Independent. Not affiliated with or endorsed by any employer."
+- The brand compounds independently; the founder can step forward publicly at any time
 
 ## Alternatives considered
 
-- **Founder-led personal brand** — faster trust-building; higher conflict risk; harder to separate later; locks the brand to one person
-- **Anonymous lab** — maximum privacy; very hard to build any trust or inbound without any human signal
+- **Founder-led personal brand** — faster initial trust-building; higher conflict risk; harder to separate later; locks the brand to one person
+- **Anonymous lab** — maximum privacy; very hard to build trust or inbound without any human signal
 
 ## Why brand-first
 
-- Compounds independently of founder's employment status
+- Institutional credibility outlasts any individual's employment or affiliation cycle
 - Founder can step forward publicly at any time; stepping back later is much harder
-- Consistent with long-term IP vehicle goal — institutional credibility outlasts personal brand cycles
+- Consistent with long-term IP vehicle goal — the lab, not the person, holds the assets

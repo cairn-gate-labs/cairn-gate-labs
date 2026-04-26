@@ -16,7 +16,7 @@ Defined terms used across Cairn Gate documentation. When a term appears in a doc
 
 **Charter** — The foundational document defining what Cairn Gate is, isn't, and is building toward. Everything else must be consistent with it.
 
-**Clean-room policy** — The personal rules governing separation between Cairn Gate work and Meta employment: personal devices, accounts, time, code, data only.
+**Clean-room policy** — The personal rules governing separation between Cairn Gate work and any employer obligations: personal devices, accounts, time, code, data only.
 
 **Cortical memory architecture** — Cairn Gate's in-development AI memory system modeled on multi-scale human memory consolidation (working memory, episodic, semantic, procedural). Under active IP review — do not publish enabling details.
 

@@ -1,71 +1,46 @@
-# Cairn Gate Labs — Project Index
+# Cairn Gate Labs — Documentation Index
 
-## What this project is
-Cairn Gate Labs LLC — Wyoming single-member LLC, filed 2026-04-24. Independent AI systems lab + consulting front door + IP vehicle. Owner is a PhD data scientist at Meta; all public output runs under the Cairn Gate brand, not the founder's name.
+## Repository structure
 
-**EIN:** 42-2144631 | **Domain:** cairnlabs.org | **Entity:** Wyoming LLC | **GitHub:** github.com/cairn-gate-labs/cairn-gate-labs
+```
+foundation/     Bedrock identity docs — rarely edited, changes require a decision record
+strategy/       Living strategy — reviewed quarterly
+decisions/      Append-only ADR log — why key decisions were made
+canon/          Reference material — glossary, defined terms
+```
 
----
+## Foundation docs
 
-## Documentation Map
-
-### Foundation (bedrock — rarely edited, changes require ADR)
 | Doc | What it defines |
 |---|---|
-| [`foundation/CHARTER.md`](foundation/CHARTER.md) | What CGL is, isn't, and is building toward — start here |
-| [`foundation/THESIS.md`](foundation/THESIS.md) | The falsifiable bet: bottleneck is systems, not models |
+| [`foundation/CHARTER.md`](foundation/CHARTER.md) | What Cairn Gate is, isn't, and is building toward — start here |
+| [`foundation/THESIS.md`](foundation/THESIS.md) | The core bet: bottleneck is systems, not model capability |
 | [`foundation/TECHNICAL_PHILOSOPHY.md`](foundation/TECHNICAL_PHILOSOPHY.md) | How we build: stances, trade-offs, what we refuse |
-| [`foundation/PRINCIPLES.md`](foundation/PRINCIPLES.md) | 10 operating principles — concrete, testable |
-| [`foundation/VOICE.md`](foundation/VOICE.md) | Brand voice: do/don't pairs, rewrites, banned phrases |
+| [`foundation/PRINCIPLES.md`](foundation/PRINCIPLES.md) | 10 operating principles — concrete and testable |
+| [`foundation/VOICE.md`](foundation/VOICE.md) | Brand voice: do/don't pairs, example rewrites, banned phrases |
 
-### Strategy (living — reviewed quarterly)
+## Strategy docs
+
 | Doc | What it covers |
 |---|---|
 | [`strategy/ARMS.md`](strategy/ARMS.md) | The six internal arms and their sequencing |
-| [`strategy/IP_STRATEGY.md`](strategy/IP_STRATEGY.md) | Patent vs. trade secret, clean-room rules, cortical memory status |
-| [`ROADMAP.md`](ROADMAP.md) | Time-bound operational milestones |
-| [`VISION.md`](VISION.md) | Original strategy notes (ChatGPT conversation 2026-04-25) |
+| [`strategy/IP_STRATEGY.md`](strategy/IP_STRATEGY.md) | IP posture: patent vs. trade secret, decision tree, asset map |
 
-### Operating (edited freely)
-| Doc | What it covers |
-|---|---|
-| [`CONTEXT.md`](CONTEXT.md) | Legal entity facts, EIN, infrastructure, costs |
-| [`COMMS-PROTOCOL.md`](COMMS-PROTOCOL.md) | Agent comms rules — all outbound needs Telegram approval |
-| [`opportunities/`](opportunities/) | Individual opportunity specs |
-| [`team/`](team/) | Team bios (Reid Carr persona) |
-| [`brand/IDENTITY.md`](brand/IDENTITY.md) | Color system, typography, SVG logo, spacing |
-| [`brand/`](brand/) | Brand assets |
-| [`contacts/`](contacts/) | Registered agent, vendors |
-| [`legal/`](legal/) | Articles of Organization, EIN confirmation |
+## Decision records
 
-### Decisions (append-only log)
 | ADR | Decision |
 |---|---|
 | [`decisions/0001-founding-structure.md`](decisions/0001-founding-structure.md) | Wyoming LLC over Delaware C-Corp |
-| [`decisions/0002-brand-first-stealth.md`](decisions/0002-brand-first-stealth.md) | Brand-first, founder behind brand |
+| [`decisions/0002-brand-first-stealth.md`](decisions/0002-brand-first-stealth.md) | Brand-first operating model |
 
-### Canon (reference)
+## Canon
+
 | Doc | What it is |
 |---|---|
-| [`canon/GLOSSARY.md`](canon/GLOSSARY.md) | Defined terms used across all docs |
+| [`canon/GLOSSARY.md`](canon/GLOSSARY.md) | Defined terms used across all documentation |
 
----
+## Conventions
 
-## Key constraints (always live)
-
-1. **Meta employment** — no paid work, advisory, or outside engagement without Meta conflicts-tool approval
-2. **Clean-room** — personal devices/accounts/time only; no Meta code/data/tooling ever touches CGL work
-3. **IP before publish** — invention memo → IP decision → THEN any enabling publication
-4. **Brand separation** — no founder name on public output; no Meta logo or implied endorsement
-5. **Comms protocol** — agents never send externally without Telegram approval (see COMMS-PROTOCOL.md)
-
----
-
-## Resume guide
-
-Starting a new session on this project? Read in order:
-1. `foundation/CHARTER.md` — what CGL is
-2. `foundation/THESIS.md` — the bet
-3. `strategy/ARMS.md` — what's being built and in what order
-4. `ROADMAP.md` — where we are operationally
-5. `CONTEXT.md` — legal/infra facts
+- **Foundation** docs change via a numbered ADR committed to `decisions/` — no silent edits
+- **Strategy** docs are free diffs, reviewed quarterly
+- Every doc carries frontmatter: `layer`, `status`, `last_reviewed`, `review_cadence`

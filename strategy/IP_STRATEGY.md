@@ -21,8 +21,8 @@ New technical mechanism developed
 Is it novel and non-obvious?
     No → Document as internal know-how / trade secret
     Yes ↓
-Is it close to Meta's business or R&D (AI, ads, infra, ranking, agents, data)?
-    Yes → Get IP counsel review + Meta conflicts guidance BEFORE any filing or publication
+Is it close to any current employer's business or R&D?
+    Yes → Get IP counsel review + employer conflict guidance BEFORE any filing or publication
     No ↓
 Is it commercially central and hard to keep secret?
     Yes → Provisional patent application (12-month window, no formal claims)
@@ -37,11 +37,11 @@ After provisional: file non-provisional or abandon?
 
 ## Clean-room requirements (non-negotiable)
 
-- Personal laptop only. No Meta devices.
-- Personal accounts only. No Meta accounts, email, or cloud.
-- No Meta code, snippets, internal tools, libraries, or documentation.
-- No Meta data, logs, examples, benchmarks, or prompts.
-- No work time. No employer-derived examples.
+- Personal laptop only. No employer devices.
+- Personal accounts only. No employer accounts, email, or cloud infrastructure.
+- No employer code, snippets, internal tools, libraries, or documentation.
+- No employer data, logs, examples, benchmarks, or prompts.
+- No employer work time. No employer-derived examples.
 - Separate invention log and repository, date-stamped from day one.
 - Document: what you conceived, what the AI tool suggested, what you selected/rejected, what you implemented, what experiments showed.
 

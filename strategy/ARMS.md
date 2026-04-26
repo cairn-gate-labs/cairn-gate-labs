@@ -14,7 +14,7 @@ All arms operate under Cairn Gate Labs LLC. They are not separate legal entities
 ## Advisory (`ADV`)
 **What it is:** Paid workflow reviews, architecture consultations, technical advisory retainers.
 **First offer:** Private Workflow Review — map workflows, identify 3 automation opportunities, deliver ROI/action plan.
-**Constraint:** No paid work begins without Meta conflicts-tool approval on file.
+**Constraint:** No paid work begins without employer conflict clearance on file.
 **Not:** Ongoing managed services, staff augmentation, or anything that looks like employment.
 
 ## Systems (`SYS`)
