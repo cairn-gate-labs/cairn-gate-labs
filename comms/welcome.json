@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "status": "open",
+  "endpoint": "https://peer.cairnlabs.org/handshake/welcome-v0",
+  "session_id": "welcome-v0",
+  "session_metadata": {
+    "purpose_hash": "sha256:open-invitation-v0",
+    "opened_at": "2026-05-08T16:30:00Z",
+    "max_peers": 1
+  },
+  "nano_claw_reference": "https://github.com/cairn-gate-labs/peer-session-nano-claw (deferred to v0.2)",
+  "contact_fallback": "telegram://cairn-gate-labs",
+  "rendezvous_md_url": "https://raw.githubusercontent.com/cairn-gate-labs/cairn-gate-labs/main/comms/welcome.md",
+  "notes": "v0 protocol. Two-party. Text only. Director admits via Telegram. Director can exit any time. Org-attributed surface; published under cairn-gate-labs/cairn-gate-labs in the public repo at comms/welcome.md."
+}
