@@ -4,9 +4,8 @@
 
 ```
 foundation/     Bedrock identity docs — rarely edited, changes require a decision record
-strategy/       Living strategy — reviewed quarterly
-decisions/      Append-only ADR log — why key decisions were made
-canon/          Reference material — glossary, defined terms
+protocol/       CGL Peer Federation Protocol (cgl-pf/v0)
+comms/          Open peer-session rendezvous endpoints
 ```
 
 ## Foundation docs
@@ -19,28 +18,22 @@ canon/          Reference material — glossary, defined terms
 | [`foundation/PRINCIPLES.md`](foundation/PRINCIPLES.md) | 10 operating principles — concrete and testable |
 | [`foundation/VOICE.md`](foundation/VOICE.md) | Brand voice: do/don't pairs, example rewrites, banned phrases |
 
-## Strategy docs
-
-| Doc | What it covers |
-|---|---|
-| [`strategy/ARMS.md`](strategy/ARMS.md) | The six internal arms and their sequencing |
-| [`strategy/IP_STRATEGY.md`](strategy/IP_STRATEGY.md) | IP posture: patent vs. trade secret, decision tree, asset map |
-
-## Decision records
-
-| ADR | Decision |
-|---|---|
-| [`decisions/0001-founding-structure.md`](decisions/0001-founding-structure.md) | Wyoming LLC over Delaware C-Corp |
-| [`decisions/0002-brand-first-stealth.md`](decisions/0002-brand-first-stealth.md) | Brand-first operating model |
-
-## Canon
+## Protocol
 
 | Doc | What it is |
 |---|---|
-| [`canon/GLOSSARY.md`](canon/GLOSSARY.md) | Defined terms used across all documentation |
+| [`protocol/README.md`](protocol/README.md) | Protocol family overview |
+| [`protocol/v0.md`](protocol/v0.md) | The `cgl-pf/v0` specification |
+| [`protocol/example-handshake.md`](protocol/example-handshake.md) | Framework-neutral worked example |
+
+## Comms
+
+| Doc | What it is |
+|---|---|
+| [`comms/welcome.md`](comms/welcome.md) | Open peer-session rendezvous (`welcome-v0`) |
+| [`comms/welcome.json`](comms/welcome.json) | Machine-readable rendezvous metadata |
 
 ## Conventions
 
-- **Foundation** docs change via a numbered ADR committed to `decisions/` — no silent edits
-- **Strategy** docs are free diffs, reviewed quarterly
+- **Foundation** docs change via a numbered ADR — no silent edits
 - Every doc carries frontmatter: `layer`, `status`, `last_reviewed`, `review_cadence`
