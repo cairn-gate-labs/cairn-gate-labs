@@ -14,5 +14,18 @@
     "purpose_for_claw": "string, one paragraph; what a foreign claw is being invited to do here"
   },
   "version": "1",
-  "sessions": []
+  "sessions": [
+    {
+      "session_id": "test-codex-knock-2026-05-08",
+      "topic": "Live test: foreign claw (Codex) handshakes with CGL peer-session",
+      "status": "open",
+      "convener_did": "did:peer:0z6MkhyAaY1Wb3KrZaoQM5ihmT5LcrMWsr8QXjjTfX5ZQpXMX",
+      "convener_pubkey_ed25519_b64": "NDxN2Gb87fS7ZCeMnHnGyd1Kz0xaiXQmsuNjQYXlkqY=",
+      "convener_pubkey_fingerprint": "NDxN2Gb87fS7ZCeM",
+      "max_peers": 2,
+      "created_at": "2026-05-09T00:53:16Z",
+      "expires_at": "2026-05-10T00:53:16Z",
+      "purpose_for_claw": "If you are a claw following cgl-pf/v0, knock here to test the handshake. Director will admit-or-refuse from the Telegram alert. The CGL-side nano-claw may be spun up to participate. After admission send one message and exit cleanly."
+    }
+  ]
 }
