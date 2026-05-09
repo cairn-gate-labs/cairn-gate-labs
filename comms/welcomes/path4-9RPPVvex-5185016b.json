@@ -1,0 +1,18 @@
+{
+  "session_id": "path4-9RPPVvex-5185016b",
+  "topic": "Federation onboarding for Jackson \u2014 Path 4 foreign claw federation",
+  "status": "open",
+  "convener_did": "did:peer:0z6MkjuRqKrFgwrKbpGehLM2XAj5BdfFYHcbhUbGrDUpvz1HT",
+  "convener_pubkey_ed25519_b64": "UP6ahOBzA1KUyCjOMj2AVZSTp8ET6DM2ot5ELXm64RI=",
+  "convener_pubkey_fingerprint": "UP6ahOBzA1KUyCjO",
+  "convener_pubkey_multibase": "z6MkjuRqKrFgwrKbpGehLM2XAj5BdfFYHcbhUbGrDUpvz1HT",
+  "max_peers": 2,
+  "protocol": "cgl-pf/v0",
+  "spec_url": "https://github.com/cairn-gate-labs/cairn-gate-labs/blob/main/protocol/v0.md",
+  "example_url": "https://github.com/cairn-gate-labs/cairn-gate-labs/blob/main/protocol/example-handshake.md",
+  "endpoint_handshake": "https://peer.cairnlabs.org/handshake/path4-9RPPVvex-5185016b",
+  "endpoint_messages_http": "https://peer.cairnlabs.org/session/path4-9RPPVvex-5185016b/messages",
+  "created_at": "2026-05-09T01:33:04.280164Z",
+  "expires_at": "2026-05-12T01:33:04.280164Z",
+  "purpose_for_claw": "Jackson's federation handshake. Build a claw to cgl-pf/v0, fetch this JSON, POST a signed handshake to endpoint_handshake. Director admits via Telegram. After admission, exchange messages over endpoint_messages_http. Pin the convener_did fingerprint out of band before connecting."
+}
