@@ -50,16 +50,13 @@ We are not a venture studio — we incubate our own work, not other people's sta
 
 ## This repository
 
-Public foundational documentation — the charter, thesis, technical philosophy, operating principles, and strategic framework that define how the lab thinks and works.
+Public foundational documentation, the CGL Peer Federation Protocol, and open peer-session rendezvous endpoints.
 
 ```
 foundation/     Charter · Thesis · Technical philosophy · Principles · Voice
-strategy/       Internal arm structure · IP strategy
-decisions/      Decision records — why key choices were made
-canon/          Glossary of defined terms
+protocol/       cgl-pf/v0 specification + worked example
+comms/          Open peer-session rendezvous (welcome-v0)
 ```
-
-Foundation documents change via formal decision records. Strategy documents are reviewed quarterly.
 
 ---
 
