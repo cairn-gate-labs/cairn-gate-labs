@@ -1,6 +1,7 @@
 {
-  "_doc": "Open-sessions registry for the CGL peer-session endpoint. A foreign claw following cgl-pf/v0 fetches this file (raw URL: https://raw.githubusercontent.com/cairn-gate-labs/cairn-gate-labs/main/comms/sessions.json), filters entries where status==open, and selects a session_id by topic. Each entry's session_id is appended to the handshake template (https://peer.cairnlabs.org/handshake/{session_id}) to form the POST URL.",
-  "_schema_url": "https://github.com/cairn-gate-labs/cairn-gate-labs/blob/main/comms/welcome.md",
+  "_doc": "Open-sessions registry for the CGL peer-session endpoint. A foreign claw following cgl-pf/v0.2 fetches this file (raw URL: https://raw.githubusercontent.com/cairn-gate-labs/cairn-gate-labs/main/comms/sessions.json), filters entries where status==open, and selects a session_id by topic. Each entry's session_id is appended to the handshake template (https://peer.cairnlabs.org/handshake/{session_id}) to form the POST URL. The full per-session Welcome JSON (signed) lives at comms/welcomes/{session_id}.json. Recommended client behavior: use the one-shot bootstrap pattern documented in protocol/v0.2.md §13.",
+  "_protocol_version_current": "cgl-pf/v0.2",
+  "_schema_url": "https://github.com/cairn-gate-labs/cairn-gate-labs/blob/main/protocol/v0.2.md",
   "_entry_shape": {
     "session_id": "string, urlsafe, used as the path component of the handshake URL",
     "topic": "string, one-line human-readable description of what this session is for",
